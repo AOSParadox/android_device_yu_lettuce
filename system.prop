@@ -17,9 +17,6 @@ mm.enable.smoothstreaming=true
 mm.disable.sec_smoothstreaming=true
 media.aac_51_output_enabled=true
 
-# set max starting background services
-ro.config.max_starting_bg=8
-
 # Bluetooth
 ro.qualcomm.bt.hci_transport=smd
 
@@ -73,6 +70,7 @@ ro.sys.fw.trim_enable_memory=1073741824
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
+ro.config.max_starting_bg=8
 
 # Audio
 ro.qc.sdk.audio.fluencetype=fluence
