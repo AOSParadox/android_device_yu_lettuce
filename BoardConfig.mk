@@ -16,8 +16,6 @@
 # inherit from common msm8916_64
 -include device/qcom/msm8916_64/BoardConfig.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/yu/lettuce//include
-
 # Platform
 TARGET_NO_BOOTLOADER := true
 TARGET_CPU_CORTEX_A53 := true
@@ -58,9 +56,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 AUDIO_FEATURE_ENABLED_FM := true
 
-# Init
-TARGET_LIBINIT_DEFINES_FILE := device/yu/lettuce/init/init_lettuce.cpp
-
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
@@ -82,8 +77,8 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
+TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_RECOVERY_FSTAB := device/yu/lettuce/fstab.qcom
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/yu/lettuce/

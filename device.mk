@@ -37,7 +37,6 @@ include device/qcom/msm8916_64/msm8916_64.mk
 DEVICE_PACKAGE_OVERLAYS += device/yu/lettuce/overlay
 PRODUCT_PACKAGE_OVERLAYS += device/yu/lettuce/overlay
 
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
