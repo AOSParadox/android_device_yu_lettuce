@@ -40,10 +40,6 @@ PRODUCT_PACKAGE_OVERLAYS += device/yu/lettuce/overlay
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# System property
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
