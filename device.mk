@@ -17,10 +17,6 @@ $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# WCNSS
-PRODUCT_COPY_FILES += \
-    device/qcom/msm8916_64/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/yu/lettuce/ramdisk,root)
@@ -60,6 +56,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums=3007 \
     ro.usb.id.ums_adb=3008 \
     ro.usb.vid=2a96
+
+# dtbToolYU
+PRODUCT_PACKAGES += \
+    dtbToolYU
 
 # GPS
 PRODUCT_PACKAGES += \
