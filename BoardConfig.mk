@@ -58,7 +58,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
+KERNEL_DEFCONFIG := cyanogenmod_lettuce-64_defconfig
 TARGET_USE_CM_RAMDISK := true
 
 # Partitions
@@ -72,7 +72,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13042155008
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Qualcomm support
-BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_HARDWARE := false
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom
