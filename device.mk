@@ -57,10 +57,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums_adb=3008 \
     ro.usb.vid=2a96
 
-# dtbToolYU
-PRODUCT_PACKAGES += \
-    dtbToolYU
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8916
