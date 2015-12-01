@@ -78,9 +78,6 @@ BOARD_USES_QCOM_HARDWARE := false
 TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/yu/lettuce/
-
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
