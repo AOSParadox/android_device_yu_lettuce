@@ -11,7 +11,7 @@ ifneq ($(filter msm8610,$(TARGET_BOARD_PLATFORM)),)
   LOCAL_CFLAGS := -DTARGET_8610
 else
   ifneq ($(filter msm8916 msm8909,$(TARGET_BOARD_PLATFORM)),)
-    LOCAL_MODULE := sensors.$(TARGET_BOARD_PLATFORM)
+    LOCAL_MODULE := sensors.msm8916
   else
     LOCAL_MODULE := sensors.msm8930
   endif
