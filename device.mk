@@ -17,6 +17,10 @@ $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
+# OpenGLES
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/yu/lettuce/ramdisk,root)
@@ -77,6 +81,10 @@ PRODUCT_PACKAGES += \
     libcalmodule_akm.so \
     libcalmodule_common \
     sensors.msm8916
+
+# Stlport
+PRODUCT_PACKAGES += \
+    libstlport
 
 # USB
 PRODUCT_PACKAGES += \
