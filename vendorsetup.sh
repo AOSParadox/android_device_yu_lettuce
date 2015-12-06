@@ -1,1 +1,2 @@
 add_lunch_combo full_lettuce-userdebug
+add_lunch_combo full_lettuce-user
