@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/yu/lettuce/prebuilt/system,system)
 
+# Prebuilt DT
+PRODUCT_COPY_FILES += \
+    device/yu/lettuce/dt.img:dt.img
+
 # CodeAurora msm8916_64 Tree
 include device/qcom/msm8916_64/msm8916_64.mk
 
