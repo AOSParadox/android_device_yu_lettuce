@@ -32,7 +32,8 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # system.prop for msm8916
 #
 
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+# ramdisk sets it
+# rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
