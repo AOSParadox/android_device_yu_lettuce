@@ -99,7 +99,3 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     libwcnss_qmi \
     wcnss_service
-
-PRODUCT_COPY_FILES += \
-    device/yu/lettuce/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    device/yu/lettuce/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
