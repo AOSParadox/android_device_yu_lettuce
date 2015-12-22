@@ -2,8 +2,8 @@
 # system.prop for lettuce
 #
 audio.offload.pcm.16bit.enable=false
-audio.offload.pcm.24bit.enable=true
-av.offload.enable=true
+audio.offload.disable=1
+av.offload.enable=false
 av.streaming.offload.enable=false
 dalvik.vm.dex2oat-flags=--no-watch-dog
 debug.composition.type=c2d
@@ -159,7 +159,7 @@ use.voice.path.for.pcm.voip=true
 #System property for FM transmitter
 ro.fm.transmitter=false
 #enable dsp gapless mode by default
-audio.offload.gapless.enabled=true
+audio.offload.gapless.enabled=false
 #Audio voice concurrency related flags
 voice.playback.conc.disabled=true
 voice.record.conc.disabled=true
