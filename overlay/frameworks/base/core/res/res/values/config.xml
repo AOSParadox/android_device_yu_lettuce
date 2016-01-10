@@ -250,4 +250,8 @@
 
     <!-- SD card is hot-pluggable on this device -->
      <bool name="config_batterySdCardAccessibility">true</bool>
+
+    <!-- Our modem doesn't support this query yet -->
+    <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
+
 </resources>
