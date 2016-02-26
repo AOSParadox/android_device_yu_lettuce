@@ -102,3 +102,6 @@ ro.telephony.default_network=9,9
 
 # relax sensor fusion mag field filter
 ro.fusion.magfield.max=250
+
+# Disable CPP duplication mode
+persist.camera.cpp.duplication=false
