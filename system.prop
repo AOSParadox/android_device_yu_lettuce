@@ -89,7 +89,7 @@ persist.audio.fluence.speaker=false
 ro.config.always_show_roaming=true
 
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=280
 
 # Radio
 persist.data.target=dpm1
