@@ -79,6 +79,7 @@ BOARD_USES_QCOM_HARDWARE := false
 # Recovery
 TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
