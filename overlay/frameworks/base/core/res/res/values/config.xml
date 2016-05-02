@@ -244,10 +244,6 @@
                   autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
 
-    <!-- Older sensors are not setting event.timestamp correctly.  Setting to
-          true will use SystemClock.elapsedRealtimeNanos() to set timestamp-->
-    <bool name="config_useSystemClockforSensors">true</bool>
-
     <!-- SD card is hot-pluggable on this device -->
      <bool name="config_batterySdCardAccessibility">true</bool>
 
