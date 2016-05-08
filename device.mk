@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
     keystore.msm8916 \
     keystore.qcom
 
+# Misc
+PRODUCT_PACKAGES += \
+    libtinyxml
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8916 \
