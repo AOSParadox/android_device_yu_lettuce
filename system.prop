@@ -80,6 +80,11 @@ persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=false
 
+# Dex-opt
+dalvik.vm.dex2oat-threads=2
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
+
 # set roaming indicator to always show
 ro.config.always_show_roaming=true
 
