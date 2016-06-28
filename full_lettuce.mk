@@ -20,6 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lettuce device
 $(call inherit-product, device/yu/lettuce/device.mk)
 
+# BSP
+$(call inherit-product, vendor/qcom/proprietary/common/msm8916/BoardConfigVendor.mk)
+$(call inherit-product, vendor/qcom/proprietary/common/config/device-vendor.mk)
+$(call inherit-product, vendor/qcom/proprietary/common/config/rendering-engine.mk)
+$(call inherit-product, vendor/qcom/proprietary/common/config/qtic-config.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lettuce
 PRODUCT_NAME := full_lettuce
