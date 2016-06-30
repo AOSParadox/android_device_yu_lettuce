@@ -23,8 +23,6 @@ TARGET_CPU_CORTEX_A53 := true
 ADD_RADIO_FILES ?= true
 TARGET_RELEASETOOLS_EXTENSIONS := device/yu/lettuce
 
-ENABLE_CPUSETS := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
