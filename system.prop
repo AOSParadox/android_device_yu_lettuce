@@ -58,6 +58,7 @@ persist.timed.enable=true
 # perf
 ro.min_freq_0=200000
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.at_library=libqti-at.so
 
 #Trim properties
 ro.sys.fw.use_trim_settings=true
