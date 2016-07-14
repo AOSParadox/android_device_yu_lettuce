@@ -104,3 +104,6 @@ ro.fusion.magfield.max=250
 
 # Disable CPP duplication mode
 persist.camera.cpp.duplication=false
+
+# WI-Fi
+wifi.interface=wlan0
