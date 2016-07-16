@@ -249,4 +249,37 @@
     <!-- Our modem doesn't support this query yet -->
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
 
+    <!-- Keycodes of gestures. If the gesture is not supported set it to 0. -->
+    <integer name="config_doubleTapKeyCode">193</integer>
+    <integer name="config_drawCKeyCode">181</integer>
+    <integer name="config_drawEKeyCode">182</integer>
+    <integer name="config_drawVKeyCode">187</integer>
+    <integer name="config_drawOKeyCode">184</integer>
+    <integer name="config_drawMKeyCode">185</integer>
+    <integer name="config_drawWKeyCode">183</integer>
+    <integer name="config_oneFingerSwipeUpKeyCode">191</integer>
+    <integer name="config_oneFingerSwipeRightKeyCode">189</integer>
+    <integer name="config_oneFingerSwipeDownKeyCode">190</integer>
+    <integer name="config_oneFingerSwipeLeftKeyCode">192</integer>
+
+    <!-- Default settings for gestures
+            0 - Disabled
+            1 - Wake device
+            2 - Toggle flashlight
+            3 - Toggle airplane mode
+            4 - Play/Pause music
+            5 - Next music
+            6 - Previous music
+            7 - Open camera
+            8 - Open dialer -->
+    <integer name="config_doubleTapDefault">1</integer>
+    <integer name="config_drawVDefault">2</integer>
+    <integer name="config_drawODefault">7</integer>
+    <integer name="config_oneFingerSwipeRightDefault">5</integer>
+    <integer name="config_oneFingerSwipeDownDefault">0</integer>
+    <integer name="config_oneFingerSwipeLeftDefault">6</integer>
+
+    <!-- Whether to to intercept inputs on screen off. -->
+    <bool name="config_enableKeyHandler">true</bool>
+
 </resources>

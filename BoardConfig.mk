@@ -65,6 +65,9 @@ WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 AUDIO_FEATURE_ENABLED_FM := true
 
+# Gestures
+TARGET_GESTURES_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
