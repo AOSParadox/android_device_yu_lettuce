@@ -1,0 +1,2 @@
+allow thermal-engine socket_device:sock_file create;
+allow thermal-engine socket_device:sock_file setattr;
