@@ -45,7 +45,7 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_CAMERA_SENSORS := ov5670_q5v41b ov8865_q8v18a
 TARGET_USE_VENDOR_CAMERA_EXT := true
 USE_DEVICE_SPECIFIC_CAMERA := true
-TARGET_USES_AOSP := true
+#TARGET_USES_AOSP := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
@@ -60,9 +60,6 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
-
-# DoubleTapWake
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
 
 # FM
 TARGET_QCOM_NO_FM_FIRMWARE := true

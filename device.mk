@@ -15,7 +15,6 @@
 #
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
@@ -97,10 +96,6 @@ PRODUCT_PACKAGES += \
     libcalmodule_akm.so \
     libcalmodule_common \
     sensors.msm8916
-
-# Stlport
-PRODUCT_PACKAGES += \
-    libstlport
 
 # USB
 PRODUCT_PACKAGES += \
