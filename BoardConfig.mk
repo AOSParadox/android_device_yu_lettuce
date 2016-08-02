@@ -21,7 +21,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_CPU_CORTEX_A53 := true
 
 ADD_RADIO_FILES ?= true
-TARGET_RELEASETOOLS_EXTENSIONS := device/qcom/common
+TARGET_RELEASETOOLS_EXTENSIONS := device/yu/lettuce
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -90,9 +90,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_USES_QCOM_HARDWARE := false
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom*
-TARGET_RECOVERY_UI_LIB := librecovery_ui_msm
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_msm
+TARGET_RECOVERY_FSTAB := device/yu/lettuce/ramdisk/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
