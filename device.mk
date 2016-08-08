@@ -57,6 +57,12 @@ PRODUCT_PACKAGES += \
     libmm-qcamera
 
 # Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.charge=3009 \
     ro.usb.id.mtp=3003 \
