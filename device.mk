@@ -15,7 +15,6 @@
 #
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
 
-
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/yu/lettuce/ramdisk,root)
@@ -26,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # CAF Branch
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.par.branch=LA.BR.1.2.7-02810-8x16.0 
+    ro.par.branch=LA.BR.1.2.7-03810-8x16.0 
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
