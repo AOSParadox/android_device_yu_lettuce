@@ -107,6 +107,13 @@ BOARD_SEPOLICY_DIRS += \
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# TWRP
+TW_THEME := portrait_hdpi
+RECOVERY_SDCARD_ON_DATA := true
+TW_INCLUDE_CRYPTO := false
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+
 # Video
 TARGET_HAVE_SIGNED_VENUS_FW := true
 
