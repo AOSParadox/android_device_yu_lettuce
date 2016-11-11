@@ -107,7 +107,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/yu/lettuce/sepolicy
+    device/yu/lettuce/sepolicy \
+    device/yu/lettuce/charger/sepolicy
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
