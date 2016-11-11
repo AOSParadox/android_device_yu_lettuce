@@ -79,6 +79,7 @@ TARGET_GESTURES_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Kernel
+ENABLE_CPUSETS := true
 BOARD_CUSTOM_BOOTIMG_MK := device/yu/lettuce/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
