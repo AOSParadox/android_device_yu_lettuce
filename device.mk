@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
+$(call inherit-product-if-exists, vendor/camera/camera.mk)
 #$(call inherit-product-if-exists, vendor/volte/volte.mk)
 #$(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
 
@@ -39,7 +40,6 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
 # CodeAurora msm8916_64 Tree
 include device/qcom/msm8916_64/msm8916_64.mk
-include vendor/camera/camera.mk
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/yu/lettuce/overlay
