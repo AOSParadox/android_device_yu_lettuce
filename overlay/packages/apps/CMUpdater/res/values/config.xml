@@ -7,5 +7,5 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="conf_update_server_url_def" translatable="false">https://github.com/AOSParadox/CMUpdater-API/raw/yu-par-6.0/lettuce/api.json</string>
+    <string name="conf_update_server_url_def" translatable="false">https://github.com/AOSParadox/CMUpdater-API/raw/yu-par-7.0/lettuce/api.json</string>
 </resources>
