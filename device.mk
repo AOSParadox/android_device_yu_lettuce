@@ -15,8 +15,8 @@
 #
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
 $(call inherit-product-if-exists, vendor/camera/camera.mk)
-#$(call inherit-product-if-exists, vendor/volte/volte.mk)
-#$(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
+$(call inherit-product-if-exists, vendor/volte/volte.mk)
+$(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
