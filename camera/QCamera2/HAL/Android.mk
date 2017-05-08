@@ -73,7 +73,7 @@ LOCAL_C_INCLUDES += \
         hardware/qcom/display/libqservice
 
 #ifeq ($(TARGET_USE_VENDOR_CAMERA_EXT),true)
-#LOCAL_C_INCLUDES += hardware/qcom/display/libgralloc
+#LOCAL_C_INCLUDES += hardware/qcom/display/msm8974/libgralloc
 #else
 LOCAL_C_INCLUDES += hardware/qcom/display/libgralloc
 #endif
