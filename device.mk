@@ -116,6 +116,10 @@ PRODUCT_PACKAGES += \
     libcalmodule_common \
     sensors.msm8916
 
+# SimSettings
+PRODUCT_PACKAGES += \
+    SimSettings
+
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
